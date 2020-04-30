@@ -1,6 +1,5 @@
 ﻿
 
-@Scripts.Render("~/Scripts/PoeApiScripts/InitialJSFile.js")
 
 @{
     ViewBag.Title = "View";
@@ -9,14 +8,28 @@
 <h2>View</h2>
 
 
-<button id="initialScript" onclick="executescript()">
+
+
+
+
+<button id="initialScript">
+    Click me!
+</button>
+
+
+<button id="poeitems">
     Click me!
 </button>
 
 
 
 
+<script src="~/Scripts/jquery-3.4.1.min.js">
+</script>
+<script src="~/Scripts/PoeApiScripts/InitialJSFile.js">
+</script>
+<script src="~/Scripts/PoeApiScripts/JSScriptHandler.js">
+</script>
 
-
-
-
+<script src="~/Scripts/PoeApiScripts/MainPage.js">
+</script>

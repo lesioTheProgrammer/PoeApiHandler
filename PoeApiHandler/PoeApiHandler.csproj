@@ -140,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\PoeApiScripts\JSScriptHandler.js" />
+    <Content Include="Scripts\PoeApiScripts\MainPage.js" />
     <Content Include="Views\About.aspx" />
     <Content Include="Views\Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
