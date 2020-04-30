@@ -3,7 +3,6 @@
 
 
 $(document).ready(function () {
-    //your code here
     document.getElementById('initialScript').onclick = function () {
         executescript();
     }
